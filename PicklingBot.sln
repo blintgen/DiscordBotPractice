@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicklingBot", "PicklingBot\PicklingBot.csproj", "{50700474-FDC1-465C-ACF0-DC3343AFC740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicklingBotTests", "PicklingBotTests\PicklingBotTests.csproj", "{E07BA713-0C17-42D9-85AB-DAFED20AFD32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50700474-FDC1-465C-ACF0-DC3343AFC740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50700474-FDC1-465C-ACF0-DC3343AFC740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50700474-FDC1-465C-ACF0-DC3343AFC740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50700474-FDC1-465C-ACF0-DC3343AFC740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07BA713-0C17-42D9-85AB-DAFED20AFD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07BA713-0C17-42D9-85AB-DAFED20AFD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07BA713-0C17-42D9-85AB-DAFED20AFD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07BA713-0C17-42D9-85AB-DAFED20AFD32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B83B7E1-A1BF-4C37-88D1-ACA22F6097DE}
+	EndGlobalSection
+EndGlobal
