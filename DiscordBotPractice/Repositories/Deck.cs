@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PicklingBot
+namespace CardPicklerBot.Repositories
 {
     public class Deck<T> : IEnumerable<T>
     {
@@ -22,7 +22,7 @@ namespace PicklingBot
         {
             Random random = new Random();
 
-            foreach(T card in CardsToShuffle)
+            foreach (T card in CardsToShuffle)
             {
                 Cards.Add(card);
             }
@@ -40,9 +40,9 @@ namespace PicklingBot
         public T Draw()
         {
             if (Cards.Count < 1)
-                {
-                    Shuffle();
-                }
+            {
+                Shuffle();
+            }
             var drawnCard = Cards[0];
             Cards.RemoveAt(0);
             CardsToShuffle.Add(drawnCard);
@@ -54,7 +54,7 @@ namespace PicklingBot
             List<T> cardsDrawn = new List<T>();
 
             for (int i = 0; i < count; i++)
-            {               
+            {
                 cardsDrawn.Add(Draw());
             }
             return cardsDrawn;

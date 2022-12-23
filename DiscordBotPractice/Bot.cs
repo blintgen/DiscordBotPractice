@@ -4,12 +4,12 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using CardPicklerBot.Repositories;
 using Discord;
 using Discord.Interactions;
 using Discord.Net;
 using Discord.WebSocket;
 using Newtonsoft.Json;
-using PicklingBot;
 
 namespace CardPicklerBot
 {
