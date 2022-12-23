@@ -8,5 +8,6 @@ namespace CardPicklerBot.Repositories
 {
     internal interface IDeckRepo
     {
+        Deck<string> GetDeck(ulong id);
     }
 }

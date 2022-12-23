@@ -8,23 +8,18 @@ using CardPicklerBot.Repositories;
 
 namespace DiscordTestBot.Modules
 {
-    public Deck<string>? activeDeck = null;
-    public Deck<string>? previousDeck = null;
-
     public class CommandInteraction : InteractionModuleBase
     {
-        [SlashCommand("create52", "Generates and sets the current deck as a standard 52 card deck")]
-        public async Task Create52()
+        Deck<string> activeDeck;
+
+        public override Task BeforeExecuteAsync(ICommandInfo command)
         {
-            if (activeDeck != null)
-            {
-                this.previousDeck = this.activeDeck;
-            }
+            IDeckRepo deckRepo = RepoFactory.GetDeckRepo();
 
-            this.activeDeck = Deck.CreateStandard52();
-            await RespondAsync("Standard 52 card deck generated");
+            activeDeck = deckRepo.GetDeck(this.Context.User.Id);
+
+            return base.BeforeExecuteAsync(command);
         }
-
 
         [SlashCommand("draw", "draws cards from the current deck.")]
         public async Task Draw( [Summary(description:"Draw more than 1 card")] [MaxValue(52)][MinValue(1)] int count = 1)
