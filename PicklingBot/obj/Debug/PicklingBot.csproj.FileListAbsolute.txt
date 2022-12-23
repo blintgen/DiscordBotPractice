@@ -1,8 +1,0 @@
-C:\Users\Brett\source\repos\PicklingBot\PicklingBot\bin\Debug\PicklingBot.exe.config
-C:\Users\Brett\source\repos\PicklingBot\PicklingBot\bin\Debug\PicklingBot.exe
-C:\Users\Brett\source\repos\PicklingBot\PicklingBot\bin\Debug\PicklingBot.pdb
-C:\Users\Brett\source\repos\PicklingBot\PicklingBot\obj\Debug\PicklingBot.csproj.AssemblyReference.cache
-C:\Users\Brett\source\repos\PicklingBot\PicklingBot\obj\Debug\PicklingBot.csproj.SuggestedBindingRedirects.cache
-C:\Users\Brett\source\repos\PicklingBot\PicklingBot\obj\Debug\PicklingBot.csproj.CoreCompileInputs.cache
-C:\Users\Brett\source\repos\PicklingBot\PicklingBot\obj\Debug\PicklingBot.exe
-C:\Users\Brett\source\repos\PicklingBot\PicklingBot\obj\Debug\PicklingBot.pdb
